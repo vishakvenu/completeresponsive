@@ -197,7 +197,7 @@ transform: rotate(-135deg);
 }
 .arrows .img{
     
-    width:50px;
+    width:40px;
     margin-top:10px;
     margin-right:40px;
 }
@@ -214,23 +214,30 @@ transform: rotate(-135deg);
     font-size: 45px;
     font-weight: 700;
     color: white;
-    text-decoration: underline;
+    opacity: .5;
+/*    text-decoration: underline;*/
 }
 .counter-time{
     font-size: 90px;
-    color: #f8ede4;
+    color: #081d3e;
 }
 
 /*end*/
 
 /*categories*/
+
 .col{
 /*    width:40% !important;*/
     background-color: white;
-/*    margin-left: 7px;*/
-/*    margin-right: 5px;*/
+    margin-top: 10px;
+/*    margin-right: 20px !important;;*/
     height:230px;
     padding: 0 !important;
+    position: relative;
+}
+.container h5{
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .first-col {
