@@ -1,0 +1,83 @@
+@media only screen and (max-width:650px) and (min-width:200px)
+{
+    .logo{
+        width:68px;
+        height:40px;
+    }
+    .fa{
+    margin-right: 10px;
+    font-size: 23px;
+}
+    .image-banner{
+        height:50px;
+    }
+    .main-content{
+        max-height:250px;
+    }
+    .main-content .image-block{
+        margin-right: 0;
+        
+    }
+    .main-content .lady{
+        padding-top:20px;
+        width:150px;
+        height:auto;
+    }
+    .text-content{
+    padding-top:50px;
+    padding-left:15px;
+    line-height: 26px;
+}
+    .text-content p{
+        font-size: 18px;
+        color: #176262;
+        margin-bottom: 3px;
+    }
+.text-content .explore{
+    font-size: 40px;
+/*    margin-top:10px;*/
+   margin-left:0;
+    font-weight: bolder;
+    color: #378699;
+}
+    .text-content .area{
+        color:#378699;
+        font-size: 19px;
+    }
+    .btn1{
+    border-radius:25px;
+    padding: 12px;
+    border: none;
+    background-color: #E54818;
+    color: white;
+        width:120px;
+    margin-top:5px;
+        margin-left: 0;
+}
+.btn1:hover{
+         background-color: #FF5519;
+        color: #12272c;
+        font-weight: 700;
+        width:120px;
+    }
+.arrows .img{
+    
+    width:30px;
+    margin-top:14px;
+    margin-right:30px;
+}
+.deals{
+        font-size: 28px;
+        font-weight: 600;
+    }
+.counter{
+        height:120px;
+    }
+
+.counter-time {
+    font-size:40px;
+    font-weight: normal;
+    margin-top:125px;
+    
+    }
+}
