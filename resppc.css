@@ -209,7 +209,7 @@ transform: rotate(-135deg);
 .main-content{
     height:560px;
     width: 100%;
-    background:url(blue%20background.jpg);
+    background-image:  linear-gradient(to bottom, rgba(13, 22, 239, 0), rgba(6, 15, 64, 0.99)), url(blue%20background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -276,18 +276,20 @@ transform: rotate(-135deg);
 .counter{
     width:100%;
     height:200px;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image:  linear-gradient(to top, rgba(6, 10, 90, 0.97), rgba(1, 5, 26, 0.78)),url(blue%20background.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .deals{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
     color: white;
-    opacity: .5;
+    opacity: .2;
 /*    text-decoration: underline;*/
 }
 .counter-time{
     font-size: 90px;
-    color: #081d3e;
+    color: #39609b;
 }
 
 /*end*/
@@ -308,8 +310,9 @@ transform: rotate(-135deg);
     font-weight: 700;
 }
 
+
 .first-col {
-    background: url("categories/359539-1803840.jpg");
+    background: url("categories/half_sleev.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -319,7 +322,7 @@ transform: rotate(-135deg);
     background-size: cover;
 }
 .third-col{
-     background: url("categories/femal%20hoodie.jpg");
+     background: url("categories/femal_hoodie.jpg");
     background-position: center;
     background-size: cover;
 }

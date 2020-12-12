@@ -55,6 +55,6 @@ var galleryimages=$(".image-block").find("img").first()
         
     },1500)
         
-        
+   
         
         })
